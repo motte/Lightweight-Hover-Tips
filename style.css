@@ -1,0 +1,21 @@
+.tipit {
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.tipit:hover {
+	color: #777;	
+}
+
+.tip {
+	display: none;
+	
+	background: #333;
+	padding: 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: rgba(0, 0, 0, 0.6);
+}
