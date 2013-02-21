@@ -9,7 +9,7 @@ $(document).ready(function() {
 	}).mousemove(function(e){
 		var specific_tag = "#"+this.id+"_tip";
 		var tipwidth = $(specific_tag).css('width').replace(/\D/g,'');
-		var leftit = e.pageX-tipwidth+10;
+		var leftit = e.pageX;
 		var topit = e.pageY+15;
 	   	$('.tip').offset({left: leftit, top: topit});
 	});
